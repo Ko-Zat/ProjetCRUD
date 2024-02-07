@@ -14,11 +14,11 @@
           <form class="row col-xl-6 mx-auto">
             <div class="col-12 col-xl-6 mb-4">
               <label for="email" class="form-label">* Votre adresse mail</label>
-              <input type="email" class="form-control" id="email" value="" required>
+              <input type="email" class="form-control" onfocusout="checkMail()" id="email" value="" required>
             </div>
             <div class="col-12 col-xl-6 mb-4">
               <label for="confirmEmail" class="form-label">* Confirmer votre adresse mail</label>
-              <input type="email" class="form-control" id="confirmEmail" value="" required>
+              <input type="email" class="form-control" onfocusout="checkMail()" id="confirmEmail" value="" required>
             </div>
             <div class="col-12 col-xl-6 mb-4">
               <label for="pseudo" class="form-label">* Pseudo</label>
