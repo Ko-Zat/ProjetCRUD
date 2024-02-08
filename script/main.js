@@ -1,3 +1,4 @@
+
 function checkMail(){
     let email = $("#email");
     let confEmail = $("#confirmEmail");
