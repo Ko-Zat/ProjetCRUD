@@ -1,9 +1,9 @@
-const MonoClient = require("mongodb").MongoClient;
+const mongoClient = require("mongodb").MongoClient;
 const url = "mongodb://localhost:27017";
 const dbName = "project.CRUD";
-MonoClient.connect(url, function(err, client){
+mongoClient.connect(url, function(err, client){
     console.log("Connecté à MongoDB");
-    const db = client.db(dbName);
+    const mongoDatabase = client.db(dbName);
     client.close();
 });
 
