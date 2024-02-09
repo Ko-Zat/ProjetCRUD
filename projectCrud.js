@@ -15,9 +15,9 @@ db.createCollection(collection);
 /* db.createCollection( <name>,
   {
     capped: <boolean>,
-    autoIndexId: <boolean>,
-    size: <number>,
-    max: <number>,
+    auto
+    max: IndexId: <boolean>,
+    size: <number>,<number>,
     storageEngine: <document>,
     validator: <document>,
     validationLevel: <string>,
